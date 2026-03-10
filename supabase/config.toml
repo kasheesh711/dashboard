@@ -1,0 +1,11 @@
+project_id = "begifted-dashboard-mvp"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public", "extensions", "app"]
+
+[db]
+port = 54322
+major_version = 17
