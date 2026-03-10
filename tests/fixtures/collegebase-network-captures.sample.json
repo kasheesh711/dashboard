@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://app.collegebase.org/data/collegeEssaysPreviews.json",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "json": {
+      "previews": []
+    }
+  },
+  {
+    "url": "https://app.collegebase.org/data/applicantProfiles.json",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "json": [
+      {
+        "id": 1,
+        "createdat": "2023-03-30T15:34:14.000Z",
+        "year": 2023,
+        "flair": [],
+        "demographics": {},
+        "academics": {},
+        "extracurricular_activities": [],
+        "awards": [],
+        "decisions": {}
+      },
+      {
+        "id": 2,
+        "createdat": "2022-02-18T08:00:00.000Z",
+        "year": 2021,
+        "flair": [],
+        "demographics": {},
+        "academics": {},
+        "extracurricular_activities": [],
+        "awards": [],
+        "decisions": {}
+      }
+    ]
+  }
+]

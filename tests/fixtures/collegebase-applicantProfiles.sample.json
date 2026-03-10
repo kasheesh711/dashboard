@@ -1,0 +1,135 @@
+[
+  {
+    "id": 1,
+    "createdat": "2023-03-30T15:34:14.000Z",
+    "year": 2023,
+    "flair": ["3.8+", "1500+/34+", "art/hum"],
+    "demographics": {
+      "gender": "Female",
+      "race_ethnicity": "Asian",
+      "intended_major": "Studio Art, Illustration",
+      "residence": "East Coast",
+      "income_bracket": null,
+      "type_of_school": "Public",
+      "hooks": "First-Gen"
+    },
+    "academics": {
+      "sat": "1500",
+      "act": null,
+      "unweighted_gpa": 3.86,
+      "weighted_gpa": 4.68,
+      "rank": null,
+      "number_of_ap_courses": 7,
+      "number_of_ib_courses": null,
+      "number_of_honors_courses": 2,
+      "ib": null,
+      "ap_testing": ["AP Art", "AP US History"]
+    },
+    "extracurricular_activities": [
+      {
+        "title": "President and founder of heraldry club",
+        "description": null
+      },
+      {
+        "title": "Student aid in counseling office",
+        "description": "Peer support and admin work"
+      }
+    ],
+    "awards": [
+      "AP Scholar with Distinction",
+      "National Silver Medal"
+    ],
+    "letters_of_recommendation": [
+      {
+        "recommender": "Art Teacher",
+        "relationship_and_quality": "Strong and detailed"
+      }
+    ],
+    "interviews": [
+      "Barnard College",
+      "Performance/Outcome: Personal favorite"
+    ],
+    "essays": {
+      "common_app_essay": {
+        "topic_overview": "Journey with performing poetry"
+      },
+      "supplemental_essays": {
+        "topic_overview": "Art portfolio process",
+        "school_name": "RISD"
+      }
+    },
+    "decisions": {
+      "acceptances": [
+        "University of Maryland, College Park",
+        "School of Visual Arts"
+      ],
+      "waitlists": [
+        "Tufts University"
+      ],
+      "rejections": [
+        "Wesleyan University"
+      ]
+    },
+    "tags": ["Art Club", "Leadership"],
+    "assigned_category": "Artist",
+    "rating": {
+      "academic_score": 7.8,
+      "extracurricular_score": 6.5,
+      "awards_score": 7,
+      "overall_score": 70.4
+    }
+  },
+  {
+    "id": 2,
+    "createdat": "2022-02-18T08:00:00.000Z",
+    "year": 2021,
+    "flair": ["3.4+", "other", "stem"],
+    "demographics": {
+      "gender": "Male",
+      "race_ethnicity": "White",
+      "intended_major": "Undecided",
+      "residence": null,
+      "income_bracket": null,
+      "type_of_school": null,
+      "hooks": null
+    },
+    "academics": {
+      "sat": null,
+      "act": "31",
+      "unweighted_gpa": 3.47,
+      "weighted_gpa": null,
+      "rank": "12/300",
+      "number_of_ap_courses": 0,
+      "number_of_ib_courses": 0,
+      "number_of_honors_courses": null,
+      "ib": null,
+      "ap_testing": []
+    },
+    "extracurricular_activities": [
+      {
+        "title": "Robotics club",
+        "description": null
+      }
+    ],
+    "awards": null,
+    "letters_of_recommendation": [],
+    "interviews": null,
+    "essays": {
+      "common_app_essay": {
+        "topic_overview": null
+      },
+      "supplemental_essays": {
+        "topic_overview": null,
+        "school_name": null
+      }
+    },
+    "decisions": {
+      "acceptances": ["Albany College"],
+      "waitlists": null,
+      "rejections": []
+    },
+    "tags": [],
+    "assigned_category": null,
+    "rating": null
+  }
+]
