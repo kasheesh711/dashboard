@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f0e8;
+  --background-soft: #fbf9f4;
+  --panel: rgba(255, 255, 255, 0.76);
+  --foreground: #1c2a26;
+  --muted: #66766f;
+  --border: rgba(28, 42, 38, 0.12);
+  --accent: #153f36;
+  --accent-soft: #dbe8e1;
+  --warn: #b86128;
+  --warn-soft: #f4e3d5;
+  --danger: #9a3d36;
+  --danger-soft: #f4d8d5;
+  --success: #2d6b57;
+  --success-soft: #dceadf;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  background-image:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.65), transparent 26%),
+    radial-gradient(circle at right center, rgba(205, 224, 214, 0.5), transparent 22%),
+    linear-gradient(180deg, #f8f5ee 0%, #f4f0e8 48%, #eee7d8 100%);
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: rgba(21, 63, 54, 0.18);
+}
+
+.grain {
+  position: relative;
+}
+
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.25;
+  background-image:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 12px 12px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), transparent);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 48px rgba(31, 45, 39, 0.08);
+}
+
+.section-title {
+  font-family: var(--font-display), serif;
+  letter-spacing: -0.02em;
+}
+
+.fade-in {
+  animation: fadeIn 480ms ease-out both;
+}
+
+.fade-up {
+  animation: fadeUp 520ms ease-out both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
