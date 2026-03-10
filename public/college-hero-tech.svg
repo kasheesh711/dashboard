@@ -1,0 +1,33 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#1D2933"/>
+  <rect width="1600" height="900" fill="url(#paint0_linear)"/>
+  <path d="M0 628C235 536 417 505 634 540C859 576 1023 664 1217 654C1368 646 1486 591 1600 522V900H0V628Z" fill="#233536"/>
+  <path d="M0 737C225 686 496 668 703 705C924 744 1090 801 1289 776C1397 762 1498 729 1600 679V900H0V737Z" fill="#162023"/>
+  <path d="M176 672H660V402L551 320H305L176 430V672Z" fill="#7C8A97"/>
+  <path d="M610 672H979V353H722L610 447V672Z" fill="#C18A4B"/>
+  <path d="M941 672H1410V383L1260 287H1088L941 420V672Z" fill="#52626F"/>
+  <rect x="248" y="474" width="76" height="198" fill="#677581"/>
+  <rect x="356" y="474" width="76" height="198" fill="#677581"/>
+  <rect x="464" y="474" width="76" height="198" fill="#677581"/>
+  <rect x="684" y="442" width="76" height="230" fill="#A97336"/>
+  <rect x="789" y="442" width="76" height="230" fill="#A97336"/>
+  <rect x="1044" y="454" width="67" height="218" fill="#44515C"/>
+  <rect x="1142" y="454" width="67" height="218" fill="#44515C"/>
+  <rect x="1240" y="454" width="67" height="218" fill="#44515C"/>
+  <rect x="708" y="494" width="27" height="52" fill="#F9CD77"/>
+  <rect x="813" y="494" width="27" height="52" fill="#F9CD77"/>
+  <rect x="1066" y="514" width="24" height="42" fill="#D9EEF8"/>
+  <rect x="1164" y="514" width="24" height="42" fill="#D9EEF8"/>
+  <rect x="1262" y="514" width="24" height="42" fill="#D9EEF8"/>
+  <rect x="151" y="575" width="20" height="126" fill="#36424C"/>
+  <circle cx="161" cy="559" r="32" fill="#FFD084"/>
+  <circle cx="1459" cy="645" r="91" fill="#243631" fill-opacity="0.88"/>
+  <circle cx="83" cy="654" r="98" fill="#2B413B" fill-opacity="0.82"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="800" y1="0" x2="800" y2="479" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#668AA6"/>
+      <stop offset="0.52" stop-color="#B8C8D8"/>
+      <stop offset="1" stop-color="#E7C8AA"/>
+    </linearGradient>
+  </defs>
+</svg>
